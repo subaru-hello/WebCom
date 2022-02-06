@@ -1,10 +1,10 @@
 {
   "name": "zoomclone",
   "version": "1.0.0",
-  "description": "",
+  "description": "オンライン上で人と話すことのできるアプリです。 ## 使用技術 webrtc",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodeman server.js"
+    "devStart": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,15 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodeman": "^1.1.2"
-  }
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subaru-hello/WebCom.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/subaru-hello/WebCom/issues"
+  },
+  "homepage": "https://github.com/subaru-hello/WebCom#readme"
 }
